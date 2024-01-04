@@ -1,0 +1,88 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #26292d;
+}
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.releaseTitle {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(45deg,#D41BD3,#179FF4FF 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+a:hover.releaseTitle
+{
+  text-decoration: none;
+  border-bottom: 2px solid #D41BD3;
+}
+
+.releaseBanner {
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.releaseContainer {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.quickStart {
+  color: #fff !important;
+  border-color: #166bb7;
+  background-color: #166bb7 !important;
+}
+
+.whyProcyon {
+  color: #fff !important;
+  border-color: #589531;
+  background-color: #589531 !important;
+  margin-right: 15px;
+}
+
+.tagLine {
+  align-items: center;
+  font-size: 45px !important;
+  color: #fff;
+  text-align: center;
+  display: flex;
+}
+
+.tagLine b {
+  color: #77a3c6 !important;
+}
+
+
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .tagLine {
+    font-size: 25px !important;
+  }
+
+  .releaseContainer {
+    font-size: 35px;
+  }
+}
